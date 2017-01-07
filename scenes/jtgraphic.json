@@ -22,7 +22,7 @@
             "device_id": "{0.0.1.00000000}.{f2ee531b-b9d7-4484-9af2-650ed3851220}"
         },
         "sync": 0,
-        "volume": 0.91267293691635132
+        "volume": 1.0
     },
     "DesktopAudioDevice1": {
         "deinterlace_field_order": 0,
@@ -49,8 +49,8 @@
         "sync": 0,
         "volume": 0.0068589998409152031
     },
-    "current_program_scene": "Gameplay",
-    "current_scene": "Gameplay",
+    "current_program_scene": "Stats and Cam",
+    "current_scene": "Stats and Cam",
     "current_transition": "Fade",
     "modules": {
         "auto-scene-switcher": {
@@ -264,6 +264,31 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "name": "Backdrop",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
                         "name": "Game Capture",
                         "pos": {
                             "x": 0.0,
@@ -351,31 +376,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "name": "Backdrop",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
                     }
                 ]
             },
@@ -1040,13 +1040,11 @@
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
                 "libobs.hide_scene_item.AFK": [],
-                "libobs.hide_scene_item.Game Capture": [],
                 "libobs.hide_scene_item.Intro Audio": [],
                 "libobs.hide_scene_item.Stats and Cam": [],
                 "libobs.hide_scene_item.Video Capture Device": [],
                 "libobs.hide_scene_item.jtGraphic": [],
                 "libobs.show_scene_item.AFK": [],
-                "libobs.show_scene_item.Game Capture": [],
                 "libobs.show_scene_item.Intro Audio": [],
                 "libobs.show_scene_item.Stats and Cam": [],
                 "libobs.show_scene_item.Video Capture Device": [],
@@ -1161,31 +1159,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 30,
-                        "crop_left": 370,
-                        "crop_right": 370,
-                        "crop_top": 0,
-                        "name": "Game Capture",
-                        "pos": {
-                            "x": 1430.0,
-                            "y": 13.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 0.40543478727340698,
-                            "y": 0.4050000011920929
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
                     },
                     {
                         "align": 5,
